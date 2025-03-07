@@ -257,7 +257,7 @@ async def run_webserver():
 # --------------------- Основная функция ---------------------
 
 def main():
-    application = ApplicationBuilder().token("7801260269:AAECySbK9GJw73H7cYwI5Sf3xPi0bG7AtbA").build()
+    application = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
 
     # Добавляем обработчики команд и сообщений
     application.add_handler(CommandHandler("start", start))
